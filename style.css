@@ -1,0 +1,136 @@
+body{
+    display: contents;
+}
+
+.navbar{
+    float: right;
+    margin: 20px;
+}
+
+.navbar_second{
+    float: left;
+    margin: 20px;
+    font-size: 15px;
+    padding: 2px;
+    font-family: arial, sans-serif;
+}
+
+.nav-item{
+    text-decoration:none;
+    color: black;
+    margin-right: 15px;
+    font-size: 15px;
+    padding: 5px;
+    font-family: arial, sans-serif;
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+}
+
+.main{
+    margin-top: 300px;
+    text-align: center;
+} 
+
+.input_area{
+    margin-top: 20px;
+}
+
+.input_box{
+    width: 584px;
+    height: 46px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: 0px 2px 8px 0px rgba(60, 64, 67, 0.25);
+    border-radius: 24px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.serch-icon{
+    position: relative;
+    left: 40px;
+    margin-top: 3px;
+    color: #9aa0a6;
+}
+
+
+.mic-icon{
+    position: relative;
+    right: 40px;
+    margin-top: 3px;
+    color: #9aa0a6;
+}
+
+.button_area{
+    padding-top: 18px;
+}
+
+.button_style{
+    height: 36px; 
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, Apple SD Gothic Neo, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+}
+
+.button_style:hover{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.language{
+    text-decoration: none;
+    padding: 0 3px;
+    color: #1a0dab;
+}
+
+.language:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.first_line{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #1f1f1f;
+}
+
+.second_line{
+    font-size: 15px;
+    padding: 15px 15px;
+    color: rgba(0,0,0,.54;)
+}
+
+.second_line_second{
+    float: right;
+}
+
+
+.second_line_text{
+    text-decoration:none;
+    color: #1f1f1f;
+    font-family: Arial, Apple SD Gothic Neo, sans-serif;
+    font-size: 14px;
+    padding: 0 16px;
+
+}
+
+.second_line_text:hover{
+    text-decoration: underline;
+}
