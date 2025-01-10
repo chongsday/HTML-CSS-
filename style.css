@@ -1,136 +1,147 @@
-body{
-    display: contents;
+.box{
+    width: 100px;
+    height: 100px;
+   
 }
 
-.navbar{
-    float: right;
-    margin: 20px;
-}
-
-.navbar_second{
-    float: left;
-    margin: 20px;
+.black{
+    background-color: black;
+    color: white;
     font-size: 15px;
-    padding: 2px;
-    font-family: arial, sans-serif;
+    text-align:center;
 }
 
-.nav-item{
-    text-decoration:none;
-    color: black;
-    margin-right: 15px;
+.gray_two{
+    background-color: gray;
+    color: white;
     font-size: 15px;
-    padding: 5px;
-    font-family: arial, sans-serif;
+    text-align:center;
 }
 
-.nav-item:hover{
-    text-decoration: underline;
+.red{
+    color: white;
+    font-size: 15px;
+    text-align:center;
 }
 
-.main{
-    margin-top: 300px;
-    text-align: center;
-} 
-
-.input_area{
-    margin-top: 20px;
+.yellow{
+    background-color: yellow;
+    font-size: 15px;
+    text-align:center;
 }
 
-.input_box{
-    width: 584px;
-    height: 46px;
-    background: #fff;
-    border: 1px solid #dfe1e5;
-    box-shadow: 0px 2px 8px 0px rgba(60, 64, 67, 0.25);
-    border-radius: 24px;
-    margin: 0 auto;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.serch-icon{
-    position: relative;
-    left: 40px;
-    margin-top: 3px;
-    color: #9aa0a6;
+.blue{
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    text-align:center;
 }
 
 
-.mic-icon{
-    position: relative;
-    right: 40px;
-    margin-top: 3px;
-    color: #9aa0a6;
+.frist-locate{
+    display: flex;
+    justify-content: space-between;
 }
 
-.button_area{
-    padding-top: 18px;
+.frist-locate-two{
+    display: flex;
 }
 
-.button_style{
-    height: 36px; 
-    background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
-    border-radius: 4px;
-    color: #3c4043;
-    font-family: Arial, Apple SD Gothic Neo, sans-serif;
-    font-size: 14px;
-    margin: 11px 4px;
-    padding: 0 16px;
+.frist-locate-two-margin{
+    margin-right: 5px;
 }
 
-.button_style:hover{
-    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
-    background-color: #f8f9fa;
-    border: 1px solid #dadce0;
-    color: #202124;
+.second-locate-mid{
+    display: flex;
+    justify-content: center;
 }
 
-.language{
-    text-decoration: none;
-    padding: 0 3px;
-    color: #1a0dab;
+.second-locate-end{
+    display: flex;
+    justify-content: flex-end;
 }
 
-.language:hover{
-    text-decoration: underline;
+.third-locate{
+    display: flex;
+    justify-content: center;
 }
 
-.footer{
+.third-gray{
     position: absolute;
+    background-color: gray;
+    color: white;
+    font-size: 15px;
+    text-align:center;
+    width: 200px;
+    height: 200px;  
+}
+
+.third-black{
+    position: absolute;
+    top: 50px;
+    background-color: black;
+    font-size: 15px;
+    text-align:center;
+    color: white;
+    position: relative;
+}
+
+.position{
+    margin-top: 110px;
+}
+
+.fourth-yellow{
+    position: relative;
+    top: -50px;
+    left: 50px;
+}
+
+.new{
+    background-color:rgb(23, 207, 240);
+    font-size: 15px;
+    text-align:center;
+    color: white; 
+    height: 150px;
+    width: 400px;
+    position: absolute;
+    right: 0px;
+}
+
+.top{
+    background-color:rgb(27, 76, 235);
+    font-size: 15px;
+    color: white; 
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+
+.bottom{
+    background-color:rgb(27, 76, 235);
+    font-size: 15px;
+    text-align:center;
+    color: white; 
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 0px;
     bottom: 0px;
-    background-color: #f2f2f2;
-    width: 100%;
 }
 
-.first_line{
-    padding: 15px 30px;
-    border-bottom: 1px solid #dadce0;
-    font-size: 15px;
-    color: #1f1f1f;
+.text_normal{
+    font-size: 20px;
 }
 
-.second_line{
-    font-size: 15px;
-    padding: 15px 15px;
-    color: rgba(0,0,0,.54;)
+.text{
+    text-align: center;
+    font-size: 20px;
 }
 
-.second_line_second{
-    float: right;
-}
-
-
-.second_line_text{
-    text-decoration:none;
-    color: #1f1f1f;
-    font-family: Arial, Apple SD Gothic Neo, sans-serif;
-    font-size: 14px;
-    padding: 0 16px;
-
-}
-
-.second_line_text:hover{
-    text-decoration: underline;
+.text_right{
+    text-align: right;
+    margin-right: 110px;
+    font-size: 20px;
 }
