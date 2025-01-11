@@ -1,147 +1,173 @@
-.box{
-    width: 100px;
-    height: 100px;
-   
-}
-
-.black{
-    background-color: black;
+body{font-family: Helvetica, Arial, sans-serif;
     color: white;
-    font-size: 15px;
-    text-align:center;
+    margin: 0px;
 }
 
-.gray_two{
-    background-color: gray;
+a{
     color: white;
-    font-size: 15px;
-    text-align:center;
+    text-decoration: none;
 }
 
-.red{
-    color: white;
-    font-size: 15px;
-    text-align:center;
+a:hover{
+    color: #1ed760;
 }
 
-.yellow{
-    background-color: yellow;
-    font-size: 15px;
-    text-align:center;
+nav{
+height: 80px;
+background-color: black;
+display: flex;
+justify-content:space-around;
+align-items: center;
 }
 
-.blue{
-    background-color: blue;
-    color: white;
-    font-size: 15px;
-    text-align:center;
+.nav-item{
+    padding: 28px 17px;
+    font-weight: 700;
+}
+main{
+height: 968px;   
+background-color: rgb(41,65,171);
+background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+background-size: 175%;
+background-position: 46% 4%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+footer{
+height: 530px;
+background-color: black;
+}
+
+.spotify_image{
+    width: 132px;
 }
 
 
-.frist-locate{
-    display: flex;
-    justify-content: space-between;
+.headline{    
+    font-size: 146px;
+        color: #1ed760;
+    font-weight: 900;
+    position: relative;
+    left: 225px;
+    padding-bottom: 40px;
+    line-height: 166px;
+
 }
 
-.frist-locate-two{
-    display: flex;
+.headline-frist{
+    position: relative;
+    left: -2.5em;
 }
 
-.frist-locate-two-margin{
-    margin-right: 5px;
+.headline-second{
+    color: #1ed760;
+    font-size: 18px; 
+    padding-bottom: 40px;
+    text-align: center;
 }
 
-.second-locate-mid{
+.buttom-area{
+    text-align: center;
+}
+
+.buttom-style{
+    padding: 14px 32px;
+    background-color: #1ed760;
+    border-radius: 500px;
+    font-size: inherit;
+    color: #2941ab;
+    font-weight: 700;
+    border: none;
+}
+
+.buttom-style:hover{
+    transform: scale(1.07);
+    background-color: #2de26d;
+}
+
+
+footer{
     display: flex;
     justify-content: center;
 }
 
-.second-locate-end{
+.footer-big-box{
+    max-width: 1170px;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.footer-boX{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.footer-box-boxs{    
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    height: 346px;
+}
+
+.footer-title{
+    color: #919496;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+
+.footer-content{
+    padding-bottom: 15px;
+    padding-top: 3px;
+    font-size: 16px;
+}
+
+
+.icon-box{
+    width: 40%;
     display: flex;
     justify-content: flex-end;
 }
 
-.third-locate{
+.icon{
+    font-size: 24px;
+    width: 54px;
+    height: 54px;
+    background-color: #222322;
+    border-radius: 50%;
+    margin-right: 15px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.third-gray{
-    position: absolute;
-    background-color: gray;
-    color: white;
-    font-size: 15px;
-    text-align:center;
-    width: 200px;
-    height: 200px;  
+.icon:hover{
+    color: #1ed760;
+
 }
 
-.third-black{
-    position: absolute;
-    top: 50px;
-    background-color: black;
-    font-size: 15px;
-    text-align:center;
-    color: white;
-    position: relative;
+.earth{
+    color: #919496;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing : 1px;
 }
 
-.position{
-    margin-top: 110px;
+.last-box{
+    color: #919496;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
 }
 
-.fourth-yellow{
-    position: relative;
-    top: -50px;
-    left: 50px;
+.last-box-content{
+    margin-right: 24px;
+    color: #919496;
 }
 
-.new{
-    background-color:rgb(23, 207, 240);
-    font-size: 15px;
-    text-align:center;
-    color: white; 
-    height: 150px;
-    width: 400px;
-    position: absolute;
-    right: 0px;
-}
-
-.top{
-    background-color:rgb(27, 76, 235);
-    font-size: 15px;
-    color: white; 
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-}
-
-
-.bottom{
-    background-color:rgb(27, 76, 235);
-    font-size: 15px;
-    text-align:center;
-    color: white; 
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-}
-
-.text_normal{
-    font-size: 20px;
-}
-
-.text{
-    text-align: center;
-    font-size: 20px;
-}
-
-.text_right{
-    text-align: right;
-    margin-right: 110px;
-    font-size: 20px;
-}
