@@ -1,173 +1,32 @@
-body{font-family: Helvetica, Arial, sans-serif;
-    color: white;
-    margin: 0px;
+.line{
+border-bottom: 1px solid #e6e5e3ea;
 }
 
-a{
-    color: white;
+.line-two{
     text-decoration: none;
-}
+    color: black;}
 
-a:hover{
-    color: #1ed760;
-}
+    .line-third{
+        display: none;
+    }
 
-nav{
-height: 80px;
-background-color: black;
-display: flex;
-justify-content:space-around;
-align-items: center;
-}
-
-.nav-item{
-    padding: 28px 17px;
-    font-weight: 700;
-}
-main{
-height: 968px;   
-background-color: rgb(41,65,171);
-background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
-background-size: 175%;
-background-position: 46% 4%;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-
-footer{
-height: 530px;
-background-color: black;
-}
-
-.spotify_image{
-    width: 132px;
-}
-
-
-.headline{    
-    font-size: 146px;
-        color: #1ed760;
-    font-weight: 900;
-    position: relative;
-    left: 225px;
-    padding-bottom: 40px;
-    line-height: 166px;
-
-}
-
-.headline-frist{
-    position: relative;
-    left: -2.5em;
-}
-
-.headline-second{
-    color: #1ed760;
-    font-size: 18px; 
-    padding-bottom: 40px;
-    text-align: center;
-}
-
-.buttom-area{
-    text-align: center;
-}
-
-.buttom-style{
-    padding: 14px 32px;
-    background-color: #1ed760;
-    border-radius: 500px;
-    font-size: inherit;
-    color: #2941ab;
-    font-weight: 700;
-    border: none;
-}
-
-.buttom-style:hover{
-    transform: scale(1.07);
-    background-color: #2de26d;
-}
-
-
-footer{
-    display: flex;
-    justify-content: center;
-}
-
-.footer-big-box{
-    max-width: 1170px;
-    width: 100%;
-    padding-top: 80px;
-    padding-bottom: 50px;
-}
-
-.footer-boX{
-    display: flex;
-    justify-content: space-between;
+@media screen and (max-width:48em){
+.line{
+    text-align:center;}
     
 }
 
 
-.footer-box-boxs{    
-    display: flex;
-    flex-direction: column;
-    padding: 0 15px;
-    height: 346px;
-}
 
-.footer-title{
-    color: #919496;
-    font-weight: 900;
-    margin: 20px 0px;
-}
-
-.footer-content{
-    padding-bottom: 15px;
-    padding-top: 3px;
-    font-size: 16px;
-}
+@media screen and (max-width:48em){
+    .line-two{
+        padding-left: 2rem;
+        padding-right: 2rem;
+       
+    }
 
 
-.icon-box{
-    width: 40%;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.icon{
-    font-size: 24px;
-    width: 54px;
-    height: 54px;
-    background-color: #222322;
-    border-radius: 50%;
-    margin-right: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.icon:hover{
-    color: #1ed760;
-
-}
-
-.earth{
-    color: #919496;
-    display: flex;
-    justify-content: flex-end;
-    font-size: 12px;
-    font-weight: 900;
-    letter-spacing : 1px;
-}
-
-.last-box{
-    color: #919496;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 12px;
-}
-
-.last-box-content{
-    margin-right: 24px;
-    color: #919496;
-}
-
+@media screen and (max-width:48em){
+    .line-third{
+display: block;
+    }
