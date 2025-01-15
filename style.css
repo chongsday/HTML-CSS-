@@ -1,35 +1,30 @@
-.line{
-border-bottom: 1px solid #e6e5e3ea;
+.line {
+    border-bottom: 1px solid #e6e5e3ea;
 }
 
-.line-two{
+.line-text a {
     text-decoration: none;
     color: black;
 }
 
-.line-third{
-     display: none;
+.line-third {
+    display: none;
 }
 
+@media screen and (max-width: 48em) {
+    .line {
+        text-align: center;
+    }
 
-@media screen and (max-width:48em){
-.line{
-    text-align:center;}
-}
-
-
-@media screen and (max-width:48em){
-    .line-two{
+    .line-text {
         padding-left: 3rem;
         padding-right: 3rem;
     }
 
-@media screen and (max-width:48em){
-    .line-third{
-display: block;
+    .line-third {
+        display: block;
     }
+}
 
-@media (max-width: 600px) {
-      .item {
-          flex: 1 1 100%;
-        }}
+
+}
