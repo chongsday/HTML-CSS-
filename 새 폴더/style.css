@@ -1,0 +1,286 @@
+body {
+  margin: 0;
+  font-family: pretandard, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+.simbol {
+  width: 30px; /* 로고의 가로 크기 */
+  height: auto; /* 비율에 따라 세로 크기 자동 조정 */
+  margin-left: 5%;
+  margin-right: 1%;
+}
+
+.btn-outline-success {
+  color: gray;
+  border-color: black;
+  background-color: black;
+}
+
+.btn-outline-success:hover {
+  color: white;
+  border-color: black;
+  background-color: black;
+}
+
+.navbar {
+  margin-top: 20px;
+  width: 100fr;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  margin-left: -50px; /* 로고와 글씨를 더 왼쪽으로 이동 */
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 가로 4칸 */
+  grid-template-rows: repeat(3, 1fr); /* 세로 4칸 */
+  gap: 10px; /* 박스 간 간격 */
+  width: 100%;
+  max-width: 992px; /* 그리드의 최대 너비 */
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6); /* 반투명한 배경 */
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  opacity: 0; /* 기본적으로 보이지 않음 */
+  transition: opacity 0.3s ease; /* 부드러운 전환 효과 */
+}
+
+.grid-item {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden; /* 넘치는 이미지를 숨김 */
+  background-color: #f4f4f4; /* 이미지가 없을 경우 배경 색 */
+  border-radius: 20px; /* 모서리 둥글게 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  min-height: 100%; /* 세로 크기 부족 시 확장 */
+  min-width: 100%; /* 가로 크기 부족 시 확장 */
+  object-fit: cover; /* 크롭 효과 */
+  border-radius: 5px; /* 이미지 모서리 둥글게 */
+  display: block;
+}
+
+.single-1 {
+  aspect-ratio: 1/1;
+} /*한 칸짜리 박스만 정사각 비율 */
+
+.single-1:hover .text-overlay {
+  opacity: 1; /* 텍스트가 보이도록 변경 */
+}
+
+.single-2 {
+  aspect-ratio: 1/1; /*한 칸짜리 박스만 정사각 비율 */
+}
+.single-2:hover .text-overlay {
+  opacity: 1; /* 텍스트가 보이도록 변경 */
+}
+
+.single-3 {
+  color: gray;
+  aspect-ratio: 1/1; /*한 칸짜리 박스만 정사각 비율 */
+}
+.single-3:hover .text-overlay {
+  opacity: 1; /* 텍스트가 보이도록 변경 */
+}
+
+.single-4 {
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  aspect-ratio: 1/1; /*한 칸짜리 박스만 정사각 비율 */
+}
+
+.single-4:hover {
+  transform: scale(1.1);
+}
+
+.item-1 {
+  grid-column: span 2; /* 가로로 두 칸 */
+  position: relative;
+  width: 100%;
+  overflow: hidden; /* 컨테이너를 벗어난 텍스트 숨기기 */
+}
+.item-1:hover .text-overlay {
+  opacity: 1; /* 텍스트가 보이도록 변경 */
+}
+
+.item-3 {
+  color: white;
+  font-size: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7b733;
+  grid-row: span 2; /* 가로로 두 칸 */
+}
+
+.item-3:hover {
+  color: #f7b733;
+}
+
+.item-4 {
+  color: white;
+  font-size: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-row: span 2; /* 가로로 두 칸 */
+}
+
+.item-4:hover .text-overlay {
+  opacity: 1; /* 텍스트가 보이도록 변경 */
+}
+
+.item-6 {
+  grid-row: span 2; /* 가로로 두 칸 */
+}
+.item-7 {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6d76ff;
+  grid-column: span 2; /* 가로로 두 칸 */
+}
+
+.item-7:hover {
+  transform: scale(1.1);
+}
+
+
+.container{
+  width: 1000px;
+}
+  .first-line
+  { justify-content:space-between;
+  align-items: center;
+  display: flex;
+}
+
+.slogan{
+  color: gray;
+  display: none;
+  font-size: 18px;
+  padding-bottom: 20px;}
+
+.copyright {
+  text-align: left; 
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width: 992px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr); /* 태블릿: 3열 */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); /* 작은 화면: 2열 */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: repeat(1fr); /* 모바일: 1열 */
+  }
+  
+}
+.container {
+  max-width: 992px;
+}
+
+.links a {
+  color: gray;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+.icons i {
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+@media (max-width: 992px) {
+  .first-line {
+    display: block;
+    text-align: center;
+  }
+}
+
+.sns-area {
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer-container {
+  text-align: center;
+}
+
+.footer-container {
+  text-align: center;
+}
+
+.slogan {
+  display: none;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 992px) {
+  .footer-container {
+    text-align: center;
+  }
+  .slogan {
+    display: block;
+  }
+  .copyright {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+  .copyright {
+    text-align: center;
+  }
+  }
+}
+
+@media (max-width: 480px) {
+  .copyright {
+    text-align: center;
+  }
+}
